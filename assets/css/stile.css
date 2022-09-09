@@ -261,6 +261,43 @@ tbody tr td {
     font-size:16px;
 }
 
+#box-contact {
+    display:flex;
+    justify-content: space-between;
+    column-gap: 70px;
+}
+
+
+
+.field-box {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items:center;
+    row-gap: 20px;   
+}
+
+.field-box label {
+    display:block;
+    text-align:left;
+    text-transform: uppercase;
+    font-size:13px;
+}
+
+.field-box input {
+    width:100%;
+}
+
+.addresses {
+    line-height: 40px;
+}
+
+#contacts {
+    padding-left:90px;
+    padding-right:90px;
+}
+
+
 
 
 
@@ -358,4 +395,79 @@ address {
         transform:scale(0.95);
         box-shadow:0 0 0 0 rgba(0,0,0,0);
     }
+}
+
+/* MEDIA SCREEN */
+@media screen and (max-width:600px) {
+    header {
+        padding-left:10px;     
+    }
+
+    nav {
+        display:inline;
+    }
+
+    .coder-text {
+        text-align: left;
+    }
+
+    main section div h1 p {
+        text-align: left;
+    }
+
+    .why-dev-box  {
+        display:inline;
+
+    }
+
+    #who-will-be {
+        display:inline;
+    }
+
+    #who-will-be img {
+        margin:0 auto;
+    }
+
+    .image-text {
+        text-align: center;
+        padding-top:15px;
+    }
+
+    #footer-page {
+        display:inline;
+    }
+  
+}
+
+@media screen and (max-width:600px) {
+    .p-who-we-are {
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+    .who-box {
+        display:inline;
+    }
+
+
+
+    td {
+        display:flex;
+        text-align:left;
+        padding:5px;
+    }
+
+    td::before {
+        content:attr(title);
+        font-weight:bold;
+        padding-right:5px;
+    }
+
+    thead {
+        display:none;
+    }
+
+   
+
+    
 }
