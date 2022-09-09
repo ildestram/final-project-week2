@@ -4,11 +4,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="">
-  <title></title>  
+  <meta name="description" content="Epicode School: la presentazione dei nostri servizi e l'offerta didattica">
+  <title>Epicode - Profilo aziendale</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/stile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Mukta:wght@300&family=Noto+Sans:wght@200&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/8f6058a6c1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <header>
+    <nav>
+      <img
+        class="epicode-logo"
+        src="./assets/images/logo.png"
+        alt="Epicode-logo"
+      />
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" title="Pagina iniziale del sito">Home</a>
+        </li>
+        <li>
+          <a href="chi-siamo.html" title="Pagina Chi siamo">Chi siamo</a>
+        </li>
+        <li>
+          <a href="contatti.html" title="Pagina dei contatti">Contatti</a>
+        </li>
+        <li class="btn">
+          <a  href="registrati.html" title="Registrati al sito">Registrati</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <section id="we-are-coder">
+      <div>
+        <h1>We are coder</h1>
+        <p class="p-who-we-are">Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech. Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro.</p>
+      </div>
+      <div class="who-box">
+        <div>
+          <img src="./assets/images/foto1.jpg" alt="photo-1" width="600" height="200">
+          <p>Investiamo sul tuo talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili</p>
+        </div>
+        <div>
+          <img class="photo-2" src="./assets/images/foto2.jpg" alt="photo-2" width="600" height="400">
+          <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="table-price">
+      <table>
+        <caption>Prezzi dei corsi</caption>
+        <thead>
+          <tr>
+            <th>Base <br>500&euro;<span class="no-span">+IVA</span></th>
+            <th>Intermedio <br>1000&euro;<span class="no-span">+IVA</span></th>
+            <th>Avanzato <br>2000&euro; <span class="no-span">+IVA</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30 ore di <br> formazione</td>
+            <td>Tutte le caratteristiche del corso <br> base</td>
+            <td>Tutte le caratteristiche del corso <br> intermedio</td>
+          </tr>
+          <tr>
+            <td>Supporto post <br> corso</td>
+            <td>Rateazione in 12 mesi</td>
+            <td>Video registrazioni</td>
+          </tr>
+          <tr>
+            <td>Stage aziendale</td>
+            <td>Ripetizione del corso</td>
+            <td>Supporto 24h dedicato</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <section id="footer-page">
+      <div>
+        <h2>Chi siamo</h2>
+        <p class="ep-school-p">Epicode School nasce con l'obiettivo di <br> rivoluzionare la formazione in ambito <br> tech.</p>
+      </div>
+
+      <div>
+        <h2>Ti piace ciò che vedi? Condividilo <br> con i tuoi amici</h2>
+        <div>
+          <ul>
+            <li class="list"><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="list"><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <h2>Iscriviti alla nostra newsletter</h2>
+        <form action="POST">
+          <fieldset>
+            <input type="email" name="email" id="email" required>
+            <button  type="submit">Va bene!</button>
+          </fieldset>
+        </form>
+      </div>
+
+      <!-- <address>&copy; 2021 Epicode Web Developer school - Via Appia, 1 00100 Roma (RM) - Tel. 06-12345678</address> -->
+    </section>
+    <address>&copy; 2021 Epicode Web Developer school - Via Appia, 1 00100 Roma (RM) - Tel. 06-12345678</address>
+
+  </footer>
 
 
 </body>
