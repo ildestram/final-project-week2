@@ -89,6 +89,10 @@ header nav ul li {
     column-gap: 20px;;
 }
 
+.who-box img {
+    height:400px;
+}
+
 #we-are-coder {
     padding-left:80px;
     padding-right:80px;
@@ -451,23 +455,6 @@ address {
 
 
 
-    td {
-        display:flex;
-        text-align:left;
-        padding:5px;
-    }
-
-    td::before {
-        content:attr(title);
-        font-weight:bold;
-        padding-right:5px;
-    }
-
-    thead {
-        display:none;
-    }
-
-   
-
-    
+     
 }
+
